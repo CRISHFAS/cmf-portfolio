@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.gif" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Cris. F. Martin - 2do Portfolio Personal</title>
+  <meta name="description"
+    content="Bienvenido al portafolio de Cristian Farias Martin, desarrollador web full stack." />
+  <meta name="keywords" content="Cristian Farias Martin, desarrollador full stack" />
+  <meta name="author" content="Cris. F. Martin" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://mdsahilfullstack.vercel.app/" />
+
+  <meta property="og:title" content="MD Sahil - Full Stack Developer Portfolio" />
+  <meta property="og:description"
+    content="Explora los proyectos y habilidades de Cris, un apasionado desarrollador full stack experto en Desarrollo de Software web full stack." />
+  <meta property="og:image" content="https://mdsahilfullstack.vercel.app/og-image.png" />
+  <meta property="og:url" content="https://mdsahilfullstack.vercel.app/" />
+  <meta property="og:type" content="website" />
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cristian Martin Farias",
+        "url": "https://github.com/CRISHFAS/cmf-portfolio",
+        "image": "https://mdsahilfullstack.vercel.app/og-image.png",
+        "sameAs": [
+          "https://github.com/CRISHFAS",
+          "https://www.linkedin.com/in/cristian-martin-farias"
+        ],
+        "jobTitle": "Full Stack Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        }
+      }
+    </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+  <script>
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments); };
+
+    formbutton("create", {
+      action: "https://formspree.io/f/xqayjran",
+      title: "Cómo puedo ayudarte?",
+      fields: [
+        {
+          type: "email",
+          label: "Email:",
+          name: "email",
+          required: true,
+        },
+        {
+          type: "textarea",
+          label: "Mensaje:",
+          name: "message",
+        },
+        { type: "submit" }
+      ],
+      styles: {
+        modal: {
+          background: "#EEE"
+        },
+        formStatus: {
+          background: "#EEE"
+        },
+        input: {
+          border: "1px solid #CCC",
+          padding: "5px",
+          lineHeight: "1.25"
+        },
+        submitInput: { padding: "0.75em 1em" }
+      },
+      initiallyVisible: false,
+    });
+  </script>
+</body>
+
+</html>
