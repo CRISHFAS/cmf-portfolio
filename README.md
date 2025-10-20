@@ -1,4 +1,12 @@
-# 💼 CMF Portfolio – React + Vite + Tailwind
+<h3 align="center">CMF Portfolio v2</h3>
+
+  <div align="center">
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript&color=646CFF" alt="javascript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
+
+# CMF Portfolio 
 
 Sitio web de mi 2do portafolio, creado con React , Vite y Tailwind CSS.
 
@@ -7,9 +15,8 @@ Sitio web de mi 2do portafolio, creado con React , Vite y Tailwind CSS.
 - React 
 - Tailwind CSS
 - JavaScript (ES6+)
-- Framer Motion for animations
 
-## ✨ Features
+## Características
 
 - Diseño responsivo y compatible con dispositivos móviles.
 - Fácil personalización de contenidos y secciones.
