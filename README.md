@@ -6,7 +6,6 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-
 <h5 align="center">Sitio web de mi 2do portafolio, creado con React , Vite y Tailwind CSS.</h5>
 
 ## Pila tecnológica
@@ -49,15 +48,13 @@
    * Actualiza `/src/data/skills.js` con tu pila tecnológica
    * Modifica `/src/components` y `/src/pages` para cambios de diseño o sección
 
-## Construir para producción
+## Prepara para producción
 
 ```bash
 npm run build
 ```
 
-## Implementación
-
-Uiliza plataformas como:
+## Implementa uilizando plataformas como:
 
 * [Vercel](https://vercel.com/)
 * [Netlify](https://www.netlify.com/)
