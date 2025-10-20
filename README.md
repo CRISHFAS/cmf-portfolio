@@ -48,13 +48,13 @@
    * Actualiza `/src/data/skills.js` con tu pila tecnológica
    * Modifica `/src/components` y `/src/pages` para cambios de diseño o sección
 
-## Prepara para producción
+5. **Prepara para producción**
 
 ```bash
 npm run build
 ```
 
-## Implementa uilizando plataformas como:
+6. **Implementa uilizando plataformas como**
 
 * [Vercel](https://vercel.com/)
 * [Netlify](https://www.netlify.com/)
