@@ -98,7 +98,7 @@ export const Footer = () => {
                 </h3>
               </div>
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                Desarrollador Full Stack especializado en backend. Transformo ideas complejas en soluciones digitales escalables e impactantes.
+                Desarrollador Full Stack. Transformo ideas complejas en soluciones digitales escalables e impactantes.
               </p>
 
               <div className="flex justify-center space-x-4">
