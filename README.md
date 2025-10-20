@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-<h5 align="center">Sitio web de mi 2do portafolio, creado con React , Vite y Tailwind CSS.</h5>
+<h5 align="center">Sitio web de mi 2do portafolio, creado con React.js , JavaScript y Tailwind CSS.</h5>
 
 ## Pila tecnológica
 
