@@ -1,83 +1,60 @@
-# 💼 Developer Portfolio – React + Vite + Tailwind
-## ⭐ Star this repo if you like it!
+# 💼 CMF Portfolio – React + Vite + Tailwind
 
+Sitio web de mi 2do portafolio, creado con React , Vite y Tailwind CSS.
 
-A fast, modern, and responsive developer portfolio website built using **React**, **Vite**, and **Tailwind CSS**. Designed to showcase your projects, skills, and contact information in a clean, professional format.
+## Pila tecnológica
 
-## 🚀 Tech Stack
-
-- ⚛️ React (with Vite for fast dev/build)
-- 💨 Tailwind CSS (utility-first styling)
-- 🔧 JavaScript (ES6+)
-- 💡 Optional: Framer Motion for animations
-
-## 📸 Screenshots
-
-### 🏠 Home Page  
-![Home Page](sampleimage/sample1.png)
-![Home Page](sampleimage/sample2.png)
-
-### 🧰 other section  
-![Section](sampleimage/sample3.png)
-![Section](sampleimage/sample4.png)
-![Section](sampleimage/sample5.png)
-![Section](sampleimage/sample6.png)
-![Section](sampleimage/sample7.png)
+- React 
+- Tailwind CSS
+- JavaScript (ES6+)
+- Framer Motion for animations
 
 ## ✨ Features
 
-- Responsive and mobile-friendly design
-- Easy customization of content and sections
-- Project and skill sections configured via simple data files
-- Smooth navigation and clean layout
-- Deployed and optimized using Vite
+- Diseño responsivo y compatible con dispositivos móviles.
+- Fácil personalización de contenidos y secciones.
+- Secciones de proyectos y habilidades configuradas a través de archivos de datos simples.
+- Navegación fluida y diseño limpio.
+- Implementado y optimizado con Vite.
 
-## 🛠️ Getting Started
+## Primeros pasos
 
-1. **Clone the repository**
+1. **Clona el repositorio**
    ```bash
-   git clone https://github.com/your-username/react-vite-portfolio.git
-   cd react-vite-portfolio
+   git clone git@github.com:CRISHFAS/cmf-portfolio.git
+   cd cmf-portfolio
    ````
 
-2. **Install dependencies**
+2. **Instalar dependencias**
 
    ```bash
    npm install
    ```
 
-3. **Run the development server**
+3. **Ejecuta el servidor de desarrollo**
 
    ```bash
    npm run dev
    ```
 
-4. **Customize your content**
+4. **Personaliza tu propio contenido**
 
-   * Update `/src/data/projects.js` with your projects
-   * Update `/src/data/skills.js` with your tech stack
-   * Modify `/src/components` and `/src/pages` for layout or section changes
+   * Agraga tus proyectos personales `/src/data/projects.js`
+   * Actualiza `/src/data/skills.js` con tu pila tecnológica
+   * Modifica `/src/components` y `/src/pages` para cambios de diseño o sección
 
-## 🏗️ Build for Production
+## Construir para producción
 
 ```bash
 npm run build
 ```
 
-## 📤 Deploying
+## Implementación
 
-You can deploy the site using platforms like:
+Uiliza plataformas como:
 
 * [Vercel](https://vercel.com/)
 * [Netlify](https://www.netlify.com/)
-* [GitHub Pages](https://pages.github.com/) (with additional config)
-
-## 📬 Contact
-
-Feel free to connect with me through the Contact section on the site or via [LinkedIn](https://linkedin.com/in/codewithkinu) or [Email](mailto:codeithkinu@gmail.com).
+* [GitHub Pages](https://pages.github.com/)
 
 ---
-
-**Made with ❤️ by Sahil  using React, Vite & Tailwind CSS**
-
-```
