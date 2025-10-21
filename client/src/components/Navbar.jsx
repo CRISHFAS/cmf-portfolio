@@ -11,6 +11,7 @@ import {
   Moon,
   Volume2,
   VolumeX,
+  Rocket,
   Globe,
   Github,
   Linkedin,
@@ -147,22 +148,40 @@ export const Navbar = () => {
         transition={{ duration: 0.3 }}
       >
         <motion.a
-  href="https://crismartin-portfolio.vercel.app/" 
-  target="_blank"
-  rel="noopener noreferrer"
-  className={cn(
-    "p-2 rounded-full bg-white/80 dark:bg-black/80 backdrop-blur-md",
-    "text-indigo-600 hover:bg-indigo-100 dark:hover:bg-indigo-900/50",
-    "border border-gray-200 dark:border-gray-700 shadow-sm",
-    "flex items-center justify-center"
-  )}
-  whileHover={{ scale: 1.05 }}
-  whileTap={{ scale: 0.95 }}
-  title="Portfolio personal"
-  aria-label="Portfolio personal"
->
-  <Globe className="w-5 h-5" />
-</motion.a>
+          href="https://museo-de-proyectos.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={cn(
+            "p-2 rounded-full bg-white/80 dark:bg-black/80 backdrop-blur-md",
+            "text-indigo-600 hover:bg-indigo-100 dark:hover:bg-indigo-900/50",
+            "border border-gray-200 dark:border-gray-700 shadow-sm",
+            "flex items-center justify-center"
+          )}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          title="Museo de Proyectos"
+          aria-label="Museo de Proyectos"
+        >
+          <Rocket className="w-5 h-5" />
+        </motion.a>
+
+        <motion.a
+          href="https://crismartin-portfolio.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={cn(
+            "p-2 rounded-full bg-white/80 dark:bg-black/80 backdrop-blur-md",
+            "text-indigo-600 hover:bg-indigo-100 dark:hover:bg-indigo-900/50",
+            "border border-gray-200 dark:border-gray-700 shadow-sm",
+            "flex items-center justify-center"
+          )}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          title="Portfolio personal V1"
+          aria-label="Portfolio personal V1"
+        >
+          <Globe className="w-5 h-5" />
+        </motion.a>
 
         <motion.a
           href="https://github.com/CRISHFAS"
@@ -176,8 +195,8 @@ export const Navbar = () => {
           )}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          title="GitHub Profile"
-          aria-label="GitHub Profile"
+          title="Perfil GitHub"
+          aria-label="Perfil GitHub"
         >
           <Github className="w-5 h-5" />
         </motion.a>
@@ -194,8 +213,8 @@ export const Navbar = () => {
           )}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          title="LinkedIn Profile"
-          aria-label="LinkedIn Profile"
+          title="Perfil LinkedIn"
+          aria-label="Perfil LinkedIn"
         >
           <Linkedin className="w-5 h-5" />
         </motion.a>
@@ -215,16 +234,16 @@ export const Navbar = () => {
           title={
             isAudioReady
               ? isMusicPlaying
-                ? "Pause music"
-                : "Play music"
-              : "Loading music..."
+                ? "Pause"
+                : "Play"
+              : "Cargando música..."
           }
           aria-label={
             isAudioReady
               ? isMusicPlaying
-                ? "Pause music"
-                : "Play music"
-              : "Loading music"
+                ? "Pause"
+                : "Play"
+              : "Cargando música"
           }
         >
           {isMusicPlaying ? (
